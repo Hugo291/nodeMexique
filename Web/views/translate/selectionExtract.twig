@@ -1,0 +1,10 @@
+{% extends "../base.twig" %}
+
+{% block body %}
+ <form method="post" action="download">
+     <label>
+         <textarea  rows="10" cols="30" name="analyse-text">{{ data }}</textarea>
+     </label>
+     <input type="submit">
+ </form>
+{% endblock %}
